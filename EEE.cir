@@ -1,0 +1,11 @@
+Example_lb Examp101b.CIR
+Vs  1   0    DC   20.0V ; note the node placements
+Ra  1   2    5k
+Rb  2   0    4k
+Rc  3   0    1k
+Is  3   2    DC  2.0mA ; note the node placements 
+.DC Vs 20 40 1          ; this enables the .print commands
+.PRINT DC V(1,2) I (Ra) 
+.PRINT DC V(2) I (Rb)
+.PRINT DC V(3) I (Rc)
+.END   

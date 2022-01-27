@@ -1,0 +1,16 @@
+* Schematics Netlist *
+
+
+
+J_J1         $N_0003 $N_0001 $N_0002 J2N3822 
+C_C1         vin $N_0001  .47u  
+V_VDD         $N_0004 0 20V
+R_Rg1         $N_0001 $N_0004  6.8meg  
+R_Rg2         0 $N_0001  2.7meg  
+R_Rd         $N_0003 $N_0004  2.7k  
+R_Rs         0 $N_0002  3.3k  
+C_C2         $N_0003 vo  .47u  
+C_Cs         0 $N_0002  .47u  
+V_Vin         vin 0  
++SIN 0 150m 100k 0 0 0
+R_RL         0 vo  2.7k  

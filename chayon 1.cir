@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\chayon 1.sch
+
+* Schematics Version 9.2
+* Tue Aug 15 22:53:29 2017
+
+
+
+** Analysis setup **
+.tran 0ns 1000ns
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "chayon 1.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

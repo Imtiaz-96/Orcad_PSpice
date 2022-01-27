@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\ch2figure4.sch
+
+* Schematics Version 9.2
+* Wed Jan 31 14:22:14 2018
+
+
+
+** Analysis setup **
+.ac DEC 20 10hz 10Mhz
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "ch2figure4.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

@@ -1,0 +1,10 @@
+example 1
+I1 0 1 dc 1A
+R3 1 0 10
+V1 1 2 dc 6
+R2 2 0 5
+R1 2 3 7
+V2 3 0 dc 2
+.dc V1 10 20 2
+.print dc v(1) v(2) v(3)
+.END

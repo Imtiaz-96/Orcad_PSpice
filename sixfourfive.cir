@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\sixfourfive.sch
+
+* Schematics Version 9.2
+* Sun Jan 28 01:22:20 2018
+
+
+
+** Analysis setup **
+.tran 0ns 5m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "sixfourfive.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

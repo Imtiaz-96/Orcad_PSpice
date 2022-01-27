@@ -1,0 +1,16 @@
+* Schematics Netlist *
+
+
+
+C_C3         $N_0001 o  .47uf  
+C_C1         i $N_0002  .47uf  
+R_Rg1         $N_0002 $N_0003  6.8meg  
+R_Rd         $N_0001 $N_0003  2.7k  
+R_RL         0 o  2.7k  
+V_V2         i 0  
++SIN 0 150mv 100khz 0 0 0
+R_Rg2         0 $N_0002  2.7meg  
+V_VDD         $N_0003 0 20v
+J_J1         $N_0001 $N_0002 s J2N3822 
+R_Rs         0 s  3.3k  
+C_C6         0 s  .47uf  

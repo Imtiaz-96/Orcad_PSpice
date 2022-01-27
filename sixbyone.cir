@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\sixbyone.sch
+
+* Schematics Version 9.2
+* Sat Jan 27 11:08:29 2018
+
+
+
+** Analysis setup **
+.tran 0ns 5m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "sixbyone.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

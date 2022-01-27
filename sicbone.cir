@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\sicbone.sch
+
+* Schematics Version 9.2
+* Mon Nov 27 12:17:38 2017
+
+
+
+** Analysis setup **
+.tran 0ns 5m
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "sicbone.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

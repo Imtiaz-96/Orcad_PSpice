@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\chapfivefigure2.sch
+
+* Schematics Version 9.2
+* Sun Jan 28 01:08:59 2018
+
+
+
+** Analysis setup **
+.tran 100ns 50us
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "chapfivefigure2.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

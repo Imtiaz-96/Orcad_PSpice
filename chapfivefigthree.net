@@ -1,0 +1,13 @@
+* Schematics Netlist *
+
+
+
+J_J1         $N_0002 $N_0001 s J2N3822 
+R_R1         $N_0001 $N_0002  6.8meg  
+V_V1         $N_0002 0 20v
+C_C1         $N_0003 $N_0001  .47uf  
+C_C2         s o  .47uf  
+V_V3         $N_0003 0 DC 0V AC 150mv 
+R_R2         0 $N_0001  2.7meg  
+R_R4         0 o  2.7k  
+R_R3         0 s  3.3k  

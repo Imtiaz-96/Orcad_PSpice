@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\SchematicHOMEWORK.sch
+
+* Schematics Version 9.2
+* Sat Jan 27 22:12:55 2018
+
+
+
+** Analysis setup **
+.ac DEC 20 10 1MEG
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "SchematicHOMEWORK.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

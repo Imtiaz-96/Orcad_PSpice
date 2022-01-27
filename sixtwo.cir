@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\sixtwo.sch
+
+* Schematics Version 9.2
+* Sat Jan 27 12:11:07 2018
+
+
+
+** Analysis setup **
+.ac DEC 20 1 1G
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "sixtwo.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\Schematicelectronics.sch
+
+* Schematics Version 9.2
+* Sat Sep 16 02:06:19 2017
+
+
+
+** Analysis setup **
+.DC LIN V_V1 -100 10 .1 
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "Schematicelectronics.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

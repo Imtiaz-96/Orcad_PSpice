@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\chap3fig5.sch
+
+* Schematics Version 9.2
+* Wed Jan 31 14:23:15 2018
+
+
+
+** Analysis setup **
+.ac DEC 20 10 1meg
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "chap3fig5.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

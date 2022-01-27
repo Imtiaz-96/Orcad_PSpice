@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\chapfourfigfour.sch
+
+* Schematics Version 9.2
+* Sat Jan 27 23:21:44 2018
+
+
+
+** Analysis setup **
+.DC LIN V_Vgg 0 10 0.01 
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "chapfourfigfour.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

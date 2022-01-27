@@ -1,0 +1,22 @@
+* C:\Users\ASADULLAH\Documents\Schematicelectronics3.sch
+
+* Schematics Version 9.2
+* Sat Sep 16 02:47:21 2017
+
+
+
+** Analysis setup **
+.tran 0ns 5m 0 1u
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "Schematicelectronics3.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END

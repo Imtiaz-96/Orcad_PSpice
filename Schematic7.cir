@@ -1,0 +1,23 @@
+* C:\Users\ASADULLAH\Documents\Schematic7.sch
+
+* Schematics Version 9.2
+* Fri Oct 20 18:07:03 2017
+
+
+
+** Analysis setup **
+.DC DEC TEMP 100u 10m 20 
+.TEMP 27
+.OP 
+
+
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini:
+.lib "nom.lib"
+
+.INC "Schematic7.net"
+
+
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+
+
+.END
